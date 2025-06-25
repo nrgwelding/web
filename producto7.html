@@ -23,7 +23,15 @@
 
   <main class="producto-detalle" style="padding: 2rem; color: #e0dbd1; background-color: #1e1e1e;">
     <h2>Portón de Acceso Residencial</h2>
-    <img src="img/puerta-industrial.jpg" alt="Portón de Acceso Residencial style="width: 100%; max-width: 600px; border-radius: 8px; margin: 1rem 0;">
+<div class="carrusel">
+  <div class="slides" id="slides">
+    <img src="img/barra.png" alt="Vista frontal">
+    <img src="img/puerta-industrial.png" alt="Vista lateral">
+    <img src="img/ventana.png" alt="Detalle cerradura">
+  </div>
+  <button class="prev" onclick="moverSlide(-1)">‹</button>
+  <button class="next" onclick="moverSlide(1)">›</button>
+</div>
     <p>
       Diseño fuerte y sobrio para entradas de alto impacto visual.
     </p>
