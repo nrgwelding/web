@@ -6,6 +6,9 @@
   <title>Puerta Corrediza Estilo Granero - NRG Welding</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
+<script src="script.js"></script>
+
 <body>
   <header class="header">
     <div class="logo">
@@ -23,7 +26,17 @@
 
   <main class="producto-detalle" style="padding: 2rem; color: #e0dbd1; background-color: #1e1e1e;">
     <h2>Puerta Corrediza Estilo Granero</h2>
-    <img src="img/puerta-industrial.jpg" alt="Puerta Corrediza Estilo Granero" style="width: 100%; max-width: 600px; border-radius: 8px; margin: 1rem 0;">
+
+    <div class="carrusel">
+      <div class="slides" id="slides">
+        <img src="img/barra.png" alt="Vista 1">
+        <img src="img/mesa.png" alt="Vista 2">
+        <img src="img/puerta-industrial.png" alt="Vista 3">
+      </div>
+      <button class="prev" onclick="moverSlide(-1)">‹</button>
+      <button class="next" onclick="moverSlide(1)">›</button>
+    </div>    
+
     <p>
       Funcionalidad y estilo rústico-industrial en un solo producto.
     </p>
